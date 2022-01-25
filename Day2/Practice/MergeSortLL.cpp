@@ -70,71 +70,7 @@ void free_singly_linked_list(SinglyLinkedListNode *node)
     }
 }
 
-// Complete the mergeLists function below.
 
-/*
- * For your reference:
- *
- * SinglyLinkedListNode {
- *     int data;
- *     SinglyLinkedListNode* next;
- * };
- *
- */
-// SinglyLinkedListNode* mergeLists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
-//     SinglyLinkedListNode* i;
-//     SinglyLinkedListNode* j;
-//     SinglyLinkedListNode* head3;
-//     head3=NULL;
-//     SinglyLinkedListNode* p;
-//     i = head1;
-//     j = head2;
-//     while(1){
-//         if(head1->data < head2->data){
-//             head3=head1;
-//         }
-//         else{
-//             head3=head2;
-//         }
-//     }
-//     while(1){
-//         if(i->data<j->data){
-//             if(head3==NULL){
-//                 head3->data=i->data;
-//                 head3->next=NULL;
-//                 p=head3;
-//                 i=i->next;
-//             }
-//             else{
-//                 p=p->next;
-//                 p->data = i->data;
-//                 i=i->next;
-//             }
-//         }
-//         else{
-//             if(head3==NULL){
-//                 head3->data=j->data;
-//                 head3->next=NULL;
-//                 p=head3;
-//                 j=j->next;
-//             }
-//             else{
-//                 p=p->next;
-//                 p->data = j->data;
-//                 j=j->next;
-//             }
-//         }
-//         if(i==NULL){
-//             p->next = j;
-//             break;
-//         }
-//         if(j==NULL){
-//             p->next = i;
-//             break;
-//         }
-//     }
-// return head3;
-// }
 
 SinglyLinkedListNode *mergeLists(SinglyLinkedListNode *head1, SinglyLinkedListNode *head2)
 {
