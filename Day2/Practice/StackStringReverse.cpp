@@ -42,7 +42,7 @@ int main()
 {
     stack st;
     string str;
-    cout << "Enter the string to be reverse" << endl;
+    cout << "Enter the string to be reversed" << endl;
     getline(cin, str);
     for (int i = 0; i < str.length(); i++)
         st.push(str[i]);
