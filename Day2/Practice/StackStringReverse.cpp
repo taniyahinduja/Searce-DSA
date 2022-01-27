@@ -1,7 +1,7 @@
 /* 
 Reverse a string using push and pop functions in a stack
 */
-#include <iostream> 
+#include <iostream>
 using namespace std;
 #define MAX 100
 
@@ -42,7 +42,7 @@ int main()
 {
     stack st;
     string str;
-    cout << "Enter the string to be reverse" << endl;
+    cout << "Enter the string to be reversed" << endl;
     getline(cin, str);
     for (int i = 0; i < str.length(); i++)
         st.push(str[i]);
